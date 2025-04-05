@@ -3,7 +3,12 @@ body {
   color: #434455;
   font-family: "Roboto", sans-serif;
 }
-h1 h2 h3 h4 h5 h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -109,6 +114,9 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .section-business-solutions-button {
   background-color: #4d5ae5;
@@ -180,6 +188,7 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  text-align: center;
 }
 .our-team-list {
   display: flex;
@@ -220,6 +229,7 @@ img {
   font-size: 36px;
   color: #2e2f42;
   margin-bottom: 72px;
+  text-align: center;
 }
 .our-portfolio-list {
   display: flex;
