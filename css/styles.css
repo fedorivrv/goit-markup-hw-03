@@ -8,9 +8,9 @@ a {
   color: #2e2f42;
 }
 ul {
-  list-style: none;  
+  list-style: none;
 }
-li{
+li {
   padding-left: 0;
   margin: 0;
 }
@@ -28,7 +28,6 @@ img {
 .page-header {
   background-color: white;
   border-bottom: 1px solid #e7e9fc;
-  
 }
 .page-header .container {
   display: flex;
@@ -150,7 +149,7 @@ img {
   gap: 24px;
 }
 .section-advantages-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .section-advantages-text {
   letter-spacing: 0.02em;
