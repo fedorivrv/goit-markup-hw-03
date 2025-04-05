@@ -3,6 +3,14 @@ body {
   color: #434455;
   font-family: "Roboto", sans-serif;
 }
+h1 h2 h3 h4 h5 h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
   color: #2e2f42;
@@ -20,6 +28,7 @@ address {
 img {
   display: block;
 }
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -93,6 +102,7 @@ img {
   color: #ffffff;
   padding: 188px 0;
 }
+
 .section-business-solutions-title {
   font-weight: 700;
   font-size: 56px;
@@ -112,6 +122,7 @@ img {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .section-business-solutions-button:hover {
   background-color: #404bbf;
@@ -148,7 +159,7 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.section-advantages-list li{
+.section-advantages-item {
   width: calc((100% - 72px) / 4);
 }
 .section-advantages-text {
